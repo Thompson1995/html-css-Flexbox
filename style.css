@@ -1,0 +1,48 @@
+div {
+    padding: 2%;
+    margin: 1%;
+}
+p {
+    background-color: violet;
+    padding: 1%;
+    margin: 1%;
+    
+}
+
+.flex1 {
+    background-color: wheat;
+    display: flex;
+
+}
+
+.flex2 {
+    background-color: rgb(224, 192, 131);
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1 .hijoflex:first-of-type {
+    background-color: slateblue;
+    order:1 ;
+}
+
+.flex1 .hijoflex:last-of-type {
+    background-color:green;
+    order:0 ;
+}
+
+
+
+p.hijoflex1 {
+    width: 40%;
+
+}
+.flex3 {
+    background-color: rgb(218, 126, 21);
+    display: flex;
+    /*flex-direction: row; */
+    /* flex-wrap: wrap; */
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
